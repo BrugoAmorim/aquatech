@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Estamos na tela de cadastro</h1>
+    <div class="header">
+        <div class="container">
+            <h1 class="titulo">AquaTech</h1>
+            <ul class="navbar"> 
+                <a href="./index.html">
+                    <li>Inicial</li>
+                </a>
+                <li>Simulador</li>
+                <li>|</li>
+                <li>Login</li>
+                <b>
+                    <li>Cadastro</li>
+                </b>
+            </ul>
+        </div>
+    </div>
+    <div class="form">
+        <div class="container">
+            <div class="box">
+                <span class="span_msg">Bem-vinde!</span>
+                <label>
+                    Nome:
+                    <input type="text" placeholder="Seu nome">
+                </label>
+                <label>
+                    E-mail:
+                    <input type="text" placeholder="meuemail@provedor.com">
+                </label>
+                <label>
+                    Senha:
+                    <input type="text" placeholder="******">
+                </label>
+                <label>
+                    Confirmação da Senha:
+                    <input type="text" placeholder="******">
+                </label>
+                <button class="button">Cadastrar</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

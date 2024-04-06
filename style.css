@@ -100,3 +100,77 @@ body{
     justify-content: center;
     text-align: center;
 }
+
+.form{
+    height: 500px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   background-image: url('./assets/imagens/bg-jelly-fish-para_outras_pags.png');
+}
+
+.form .container{
+    width: 28%;
+    height: 85%;
+    margin: 15px;
+
+    flex-direction: column;
+    
+    border-radius: 6px;
+    background-color: rgb(229, 229, 229);
+}
+
+.form .container .box{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box label{
+    display: flex;
+    flex-direction: column;
+
+    color: #DB7093;
+    font-weight: 700;
+}
+
+.box input{
+    height: 35px;
+    width: 200px;
+
+    outline: none;
+    text-align: center;
+    
+    border-radius: 10px;
+    border: 2px solid #38BBCF;
+}
+
+.button{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(230, 0, 90);
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 6px;
+
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.span_msg{
+    margin: 20px;
+
+    font-size: 24px;
+    color: #DB7093;
+    font-weight: bolder;
+}
